@@ -1,0 +1,17 @@
+{
+  "name": "node_api_advanced",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "{https://github.com/rio8229/node-sookryun.git}",
+  "license": "MIT",
+  "type": "module",
+  "script": {
+    "start": "node src/app.js"
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2",
+    "prettier": "^3.2.5"
+  }
+}
